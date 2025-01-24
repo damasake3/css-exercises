@@ -5,6 +5,9 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 20vh;
 }
 
 img {
@@ -16,6 +19,8 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+
+  padding: 9px;
 }
 
 input {
@@ -24,3 +29,81 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+a {
+  text-decoration: none;
+  color: gray;
+}
+
+
+/* Header */
+.header {
+  display: flex;
+}
+
+.header > .left-links {
+  display: flex;
+  gap: 15px;
+  padding-left: 15px;
+
+  list-style: none;
+}
+
+.header > .right-links {
+  display: flex;
+  gap: 15px;
+  padding-right: 15px;
+ 
+
+  margin-left: auto;
+  list-style: none;
+}
+
+/* Header */
+
+/* Content */
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.buttons {
+  display: flex;
+  gap: 4px;
+}
+
+.buttons > button {
+  padding: 10px 20px;
+}
+
+/* Content */
+
+/* Footer */
+
+.footer {
+  background-color: #eeee;
+  display: flex;
+  margin-top: auto;
+}
+
+.footer > .left-links {
+  display: flex;
+  gap: 15px;
+  padding-left: 15px;
+
+  list-style: none;
+}
+
+.footer > .right-links {
+  display: flex;
+  gap: 15px;
+  padding-right: 15px;
+ 
+
+  margin-left: auto;
+  list-style: none;
+}
+
+/* Footer */
